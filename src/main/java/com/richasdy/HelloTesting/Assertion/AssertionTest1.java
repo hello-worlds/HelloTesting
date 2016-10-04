@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting;
+package com.richasdy.HelloTesting.Assertion;
 
 import java.util.Scanner;
 import java.io.IOException;
