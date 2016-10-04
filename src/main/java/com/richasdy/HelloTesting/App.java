@@ -1,4 +1,4 @@
-package com.richasdy.HelloJUnit;
+package com.richasdy.HelloTesting;
 
 /**
  * Hello world!
