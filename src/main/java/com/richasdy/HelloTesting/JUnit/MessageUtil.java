@@ -1,7 +1,8 @@
 package com.richasdy.HelloTesting.JUnit;
 
 public class MessageUtil {
-	
+
+	private static final Exception ArithmeticException = null;
 	private String message;
 
 	public MessageUtil(String message) {
@@ -16,12 +17,18 @@ public class MessageUtil {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
-	public String salutationMessage(){
-		return "Hi!" +message;
+
+	public String salutationMessage() {
+		
+		// throw ArithmeticException;
+		// triggered ArithmeticException
+		// int a = 0;
+		// int b = 1 / a;
+		return "Hi!" + message;
+
 	}
-	
-	public String printMessage(){
+
+	public String printMessage() {
 		System.out.println(message);
 		return message;
 	}

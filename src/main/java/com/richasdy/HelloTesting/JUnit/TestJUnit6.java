@@ -23,4 +23,12 @@ public class TestJUnit6 {
 		message = "Hi!" + "Robert";
 		assertEquals(message, messageUtil.salutationMessage());
 	}
+	
+	@Ignore
+	@Test(timeout=1000, expected = ArithmeticException.class) // in milisecond
+	public void testAnotherSalutationMessage() {
+		System.out.println("Inside testSalutationMessage()");
+		message = "Hi!" + "Robert";
+		assertEquals(message, messageUtil.salutationMessage());
+	}
 }
