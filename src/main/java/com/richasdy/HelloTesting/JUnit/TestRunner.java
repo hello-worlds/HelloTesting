@@ -12,9 +12,12 @@ public class TestRunner {
 		// Result result = JUnitCore.runClasses(TestJunit2.class);
 		// Result result = JUnitCore.runClasses(TestJunit3.class);
 		// Result result = JUnitCore.runClasses(TestJunit4.class);
-		Result result = JUnitCore.runClasses(TestJunit5.class);
-
-		System.out.println(result.getFailureCount());
+		// Result result = JUnitCore.runClasses(TestJunit5.class);
+		// Result result = JUnitCore.runClasses(TestAssertions.class);
+		Result result = JUnitCore.runClasses(JunitAnnotation.class);
+		
+		System.out.println("number of test case : "+result.getRunCount());
+		System.out.println("number of failure : "+result.getFailureCount());
 
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());
