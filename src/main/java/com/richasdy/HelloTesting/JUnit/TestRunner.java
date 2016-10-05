@@ -7,9 +7,14 @@ import org.junit.runner.notification.Failure;
 public class TestRunner {
 	public static void main(String[] args) {
 		// Result result = JUnitCore.runClasses(TestJunit.class);
-//		Result result = JUnitCore.runClasses(TestJunit1.class);
-		Result result = JUnitCore.runClasses(TestJunit1Fail.class);
+		// Result result = JUnitCore.runClasses(TestJunit1.class);
+		// Result result = JUnitCore.runClasses(TestJunit1Fail.class);
 		// Result result = JUnitCore.runClasses(TestJunit2.class);
+		// Result result = JUnitCore.runClasses(TestJunit3.class);
+		// Result result = JUnitCore.runClasses(TestJunit4.class);
+		Result result = JUnitCore.runClasses(TestJunit5.class);
+
+		System.out.println(result.getFailureCount());
 
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());

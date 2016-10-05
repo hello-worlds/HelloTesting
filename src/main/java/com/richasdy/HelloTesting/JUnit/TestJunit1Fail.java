@@ -12,10 +12,13 @@ public class TestJunit1Fail {
 	public void testPrintMessage() {
 		message = "Donni";
 		System.out.println("Inside testPrintMessage()");
+
+		// show the detail error
 		assertEquals(message, messageUtil.printMessage());
-		// harusnya pakai assert false
-		// assertFalse(message, condition);
-		// assertFalse(message, messageUtil.printMessage());
+
+		// just show the boolean error
+		// assertTrue(message.equals(messageUtil.printMessage()));
+		// assertFalse(message.equals(messageUtil.printMessage()));
 
 	}
 }
