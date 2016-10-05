@@ -17,7 +17,7 @@ public class TestJUnit6 {
 		assertEquals(message, messageUtil.printMessage());
 	}
 
-	@Test
+	@Test(timeout=1) // in milisecond
 	public void testSalutationMessage() {
 		System.out.println("Inside testSalutationMessage()");
 		message = "Hi!" + "Robert";
