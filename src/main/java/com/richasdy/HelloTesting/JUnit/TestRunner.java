@@ -16,7 +16,8 @@ public class TestRunner {
 		// Result result = JUnitCore.runClasses(TestAssertions.class);
 		// Result result = JUnitCore.runClasses(JunitAnnotation.class);
 		// Result result = JUnitCore.runClasses(JunitTestSuite.class);
-		Result result = JUnitCore.runClasses(TestJUnit6.class);
+		// Result result = JUnitCore.runClasses(TestJUnit6.class);
+		Result result = JUnitCore.runClasses(PrimeNumberCheckerTest.class);
 
 		System.out.println("number of test case : " + result.getRunCount());
 		System.out.println("number of failure : " + result.getFailureCount());
@@ -25,6 +26,6 @@ public class TestRunner {
 			System.out.println(failure.toString());
 		}
 
-		System.out.println(result.wasSuccessful());
+		System.out.println("Successfull : " + result.wasSuccessful());
 	}
 }
