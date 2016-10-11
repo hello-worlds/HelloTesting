@@ -35,6 +35,7 @@ public class TestExpectedExceptionsCustom {
 		// test message
 		thrown.expectMessage(is("Name is empty!"));
 
+		// i dont know why, but its problem with hasProperty
 		// test detail
 		thrown.expect(hasProperty("errCode")); //make sure getters n setters are defined.
 		thrown.expect(hasProperty("errCode", is(666)));
