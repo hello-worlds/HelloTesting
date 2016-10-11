@@ -17,6 +17,7 @@ public class TestExpectedExceptions {
         new ArrayList<Object>().get(0);
     }
 
+    // BAD
     @Test
     public void testDivisionWithExceptionTryCatchAlwaysFail() {
         try {
