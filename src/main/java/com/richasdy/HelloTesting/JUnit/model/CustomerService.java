@@ -1,4 +1,6 @@
-package com.richasdy.HelloTesting.JUnit;
+package com.richasdy.HelloTesting.JUnit.model;
+
+import com.richasdy.HelloTesting.JUnit.NameNotFoundException;
 
 public class CustomerService {
 	

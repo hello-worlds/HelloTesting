@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting.JUnit;
+package com.richasdy.HelloTesting.JUnit.model;
 
 public class MessageUtil {
 

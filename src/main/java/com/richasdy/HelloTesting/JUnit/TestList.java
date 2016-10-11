@@ -2,6 +2,8 @@ package com.richasdy.HelloTesting.JUnit;
 
 import org.junit.Test;
 
+import com.richasdy.HelloTesting.JUnit.model.Fruit;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

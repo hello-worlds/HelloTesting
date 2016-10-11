@@ -1,9 +1,11 @@
 package com.richasdy.HelloTesting.JUnit;
 
 import org.junit.Test;
+
+import com.richasdy.HelloTesting.JUnit.model.MessageUtil;
+
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;
-import com.richasdy.HelloTesting.JUnit.MessageUtil;
 
 public class TestJunit2 {
 

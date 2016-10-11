@@ -9,7 +9,7 @@ import org.junit.Rule;
 import org.junit.rules.ExpectedException;
 
 import com.richasdy.HelloTesting.JUnit.NameNotFoundException;
-import com.richasdy.HelloTesting.JUnit.CustomerService;
+import com.richasdy.HelloTesting.JUnit.model.CustomerService;
 
 public class TestExpectedExceptionsCustom {
 
