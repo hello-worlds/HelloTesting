@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting.TestNG.order;
+package com.richasdy.HelloTesting.TestNG;
 
 public class OrderNotFoundException extends Exception{
 
