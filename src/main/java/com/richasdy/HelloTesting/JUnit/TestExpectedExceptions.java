@@ -1,10 +1,10 @@
 package com.richasdy.HelloTesting.JUnit;
 
 import org.junit.Test;
-
-import static org.junit.Assert.fail;
-
 import java.util.ArrayList;
+import static org.junit.Assert.fail;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class TestExpectedExceptions {
 	@Test(expected = ArithmeticException.class)
