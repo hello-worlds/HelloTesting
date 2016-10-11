@@ -1,8 +1,7 @@
 package com.richasdy.HelloTesting.TestNG;
 
-import org.junit.Test;
 import org.testng.Assert;
-//import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 
 public class TestHelloWorld {
