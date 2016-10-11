@@ -28,7 +28,8 @@ public class TestConfiguration {
 	public void afterClass() {
 		System.out.println("@AfterClass");
 	}
-
+	
+	//beforeclass not running
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("@BeforeMethod");
