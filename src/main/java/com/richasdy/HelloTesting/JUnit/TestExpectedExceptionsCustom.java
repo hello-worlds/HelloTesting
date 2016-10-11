@@ -1,12 +1,15 @@
 package com.richasdy.HelloTesting.JUnit;
 
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.Matchers.hasProperty;
+import static org.hamcrest.CoreMatchers.is;
 
 import org.junit.Test;
 import org.junit.Rule;
 import org.junit.rules.ExpectedException;
+
+import com.richasdy.HelloTesting.JUnit.NameNotFoundException;
+import com.richasdy.HelloTesting.JUnit.CustomerService;
 
 public class TestExpectedExceptionsCustom {
 

@@ -24,10 +24,5 @@ public class Customer {
 		this.name = name;
 	}
 
-	public Customer findByName(String name) throws NameNotFoundException{
-		Customer customer = new Customer("customer donni");
-		return customer;
-	}
-
 
 }
