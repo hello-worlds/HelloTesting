@@ -4,7 +4,7 @@
 
 	<test name="order">
 		<packages>
-			<package name="com.mkyong.testng.examples.suite.*" />
+			<package name="com.richasdy.HelloTesting.TestNG.*" />
 		</packages>
 	</test>
 

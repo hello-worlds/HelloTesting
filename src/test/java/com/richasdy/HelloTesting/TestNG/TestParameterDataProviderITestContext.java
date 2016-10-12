@@ -1,11 +1,5 @@
 package com.richasdy.HelloTesting.TestNG;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
 
 import org.testng.Assert;
 import org.testng.ITestContext;

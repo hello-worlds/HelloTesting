@@ -5,15 +5,9 @@
   <test name="TestCase1">
 
 	<classes>
-	  <class
-		name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp">
-	  </class>
-	  <class
-		name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase">
-	  </class>
-	  <class
-		name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer">
-	  </class>
+	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp" />
+	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase" />
+	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer" />
 	</classes>
 
   </test>
