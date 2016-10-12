@@ -18,7 +18,7 @@ public class TestCheckedException {
 
 		data = new Order();
 		data.setId(1);
-		data.setCreatedBy("mkyong");
+		data.setCreatedBy("richasdy");
 	}
 
 	@Test(expectedExceptions = OrderSaveException.class)

@@ -1,52 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2016-10-11T22:53:25Z" finished-at="2016-10-11T22:53:25Z">
+  <suite name="TestAll" duration-ms="166" started-at="2016-10-12T09:33:55Z" finished-at="2016-10-12T09:33:55Z">
     <groups>
+      <group name="database">
+        <method signature="TestGroup.testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="testConnectMsSQL" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+        <method signature="TestGroup.testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="testConnectOracle" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="TestGroup.runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="runSelenium" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+        <method signature="TestGroup.runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="runSelenium1" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+        <method signature="TestGroupClass.runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@6d78f375]" name="runSelenium" class="com.richasdy.HelloTesting.TestNG.TestGroupClass"/>
+        <method signature="TestGroupClass.runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@6d78f375]" name="runSelenium1" class="com.richasdy.HelloTesting.TestNG.TestGroupClass"/>
+        <method signature="TestGroup.runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@8bd1b6a]" name="runSelenium" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+        <method signature="TestGroup.runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@8bd1b6a]" name="runSelenium1" class="com.richasdy.HelloTesting.TestNG.TestGroup"/>
+        <method signature="TestGroupClass.runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@55f3ddb1]" name="runSelenium" class="com.richasdy.HelloTesting.TestNG.TestGroupClass"/>
+        <method signature="TestGroupClass.runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@55f3ddb1]" name="runSelenium1" class="com.richasdy.HelloTesting.TestNG.TestGroupClass"/>
+      </group> <!-- selenium-test -->
       <group name="shopping">
-        <method signature="TestConfiguration.runTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="runTest1" class="com.richasdy.HelloTesting.TestNG.TestConfiguration"/>
+        <method signature="TestConfiguration.runTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="runTest1" class="com.richasdy.HelloTesting.TestNG.TestConfiguration"/>
       </group> <!-- shopping -->
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2016-10-11T22:53:25Z" finished-at="2016-10-11T22:53:25Z">
+    <test name="final" duration-ms="38" started-at="2016-10-12T09:33:55Z" finished-at="2016-10-12T09:33:55Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestGroupClass">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@6d78f375]" name="runSelenium" duration-ms="7" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@6d78f375]" name="runSelenium1" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestGroupClass -->
+      <class name="com.richasdy.HelloTesting.TestNG.TestGroup">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="runSelenium" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="runSelenium1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="testConnectMsSQL" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="setupDB()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="setupDB" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDB -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="testConnectOracle" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+        <test-method status="PASS" signature="cleanDB()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="cleanDB" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDB -->
+        <test-method status="PASS" signature="runFinal()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@643b1d11]" name="runFinal" duration-ms="1" depends-on-groups="database, selenium-test" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFinal -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestGroup -->
+    </test> <!-- final -->
+    <test name="selenium" duration-ms="12" started-at="2016-10-12T09:33:55Z" finished-at="2016-10-12T09:33:55Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestGroupClass">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@55f3ddb1]" name="runSelenium" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroupClass@55f3ddb1]" name="runSelenium1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestGroupClass -->
+      <class name="com.richasdy.HelloTesting.TestNG.TestGroup">
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@8bd1b6a]" name="runSelenium" duration-ms="2" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestGroup@8bd1b6a]" name="runSelenium1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestGroup -->
+    </test> <!-- selenium -->
+    <test name="case1" duration-ms="13" started-at="2016-10-12T09:33:55Z" finished-at="2016-10-12T09:33:55Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestDBConnection">
+        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDBConnection@66a3ffec]" name="runOtherTest1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDBConnection@66a3ffec]" name="runOtherTest2" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestDBConnection -->
       <class name="com.richasdy.HelloTesting.TestNG.TestConfiguration">
-        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="beforeGroups" is-config="true" duration-ms="5" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="beforeGroups()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="beforeGroups" is-config="true" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeGroups -->
-        <test-method status="PASS" signature="runTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="runTest1" duration-ms="6" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="runTest1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="afterGroups" is-config="true" duration-ms="0" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="afterGroups()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="afterGroups" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterGroups -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="runTest2()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="runTest2" duration-ms="2" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runTest2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@6d00a15d]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-12T05:53:25Z" finished-at="2016-10-12T05:53:25Z">
+        <test-method status="PASS" signature="runTest2()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="runTest2" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfiguration@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- com.richasdy.HelloTesting.TestNG.TestConfiguration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.richasdy.HelloTesting.TestNG.DBConfig">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@77caeb3e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@77caeb3e]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.DBConfig -->
+    </test> <!-- case1 -->
+    <test name="case2" duration-ms="6" started-at="2016-10-12T09:33:55Z" finished-at="2016-10-12T09:33:55Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestDBConnection">
+        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDBConnection@91161c7]" name="runOtherTest1" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest1 -->
+        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDBConnection@91161c7]" name="runOtherTest2" duration-ms="1" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOtherTest2 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestDBConnection -->
+      <class name="com.richasdy.HelloTesting.TestNG.DBConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@604ed9f0]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@604ed9f0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@604ed9f0]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.DBConfig@604ed9f0]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-10-12T16:33:55Z" finished-at="2016-10-12T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.DBConfig -->
+    </test> <!-- case2 -->
+  </suite> <!-- TestAll -->
 </testng-results>
