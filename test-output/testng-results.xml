@@ -2,28 +2,26 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="test-parameter" duration-ms="320" started-at="2016-10-12T11:35:16Z" finished-at="2016-10-12T11:35:16Z">
+  <suite name="test-parameter" duration-ms="30" started-at="2016-10-12T12:00:22Z" finished-at="2016-10-12T12:00:22Z">
     <groups>
+      <group name="groupA">
+        <method signature="TestParameterDataProviderITestContext.test1(int)[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext@5d5eef3d]" name="test1" class="com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext"/>
+      </group> <!-- groupA -->
     </groups>
-    <test name="example1" duration-ms="320" started-at="2016-10-12T11:35:16Z" finished-at="2016-10-12T11:35:16Z">
-      <class name="com.richasdy.HelloTesting.TestNG.TestParameterXML">
-        <test-method status="PASS" signature="createConnection(java.lang.String, int)[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestParameterXML@7ac7a4e4]" name="createConnection" duration-ms="305" started-at="2016-10-12T18:35:16Z" finished-at="2016-10-12T18:35:16Z">
+    <test name="example1" duration-ms="30" started-at="2016-10-12T12:00:22Z" finished-at="2016-10-12T12:00:22Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext">
+        <test-method status="PASS" signature="test1(int)[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext@5d5eef3d]" name="test1" duration-ms="13" started-at="2016-10-12T19:00:22Z" data-provider="dataProvider" finished-at="2016-10-12T19:00:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[db.properties]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
+                <![CDATA[1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createConnection -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestParameterXML -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext -->
     </test> <!-- example1 -->
   </suite> <!-- test-parameter -->
 </testng-results>

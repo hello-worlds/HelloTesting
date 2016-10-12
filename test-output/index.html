@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-test-parameter">
-                    <span>testng-parameter.xml</span>
+                    <span>testng-ITestContext.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -58,7 +58,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-test-parameter">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-test-parameter">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-test-parameter" title="com.richasdy.HelloTesting.TestNG.TestParameterXML" hash-for-method="createConnection(db.properties, 10)">createConnection(db.properties, 10)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-test-parameter" title="com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext" hash-for-method="test1(1)">test1(1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test-parameter -->
@@ -119,15 +119,15 @@
           <div class="suite-test-parameter-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.richasdy.HelloTesting.TestNG.TestParameterXML</span>
+              <span class="class-name">com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createConnection(db.properties, 10)">
-                  </a> <!-- createConnection(db.properties, 10) -->
-                  <span class="method-name">createConnection</span>
-                  <span class="parameters">(db.properties, 10)</span>
+                  <a name="test1(1)">
+                  </a> <!-- test1(1) -->
+                  <span class="method-name">test1</span>
+                  <span class="parameters">(1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel test-parameter -->
         <div panel-name="test-xml-test-parameter" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/richasdy/EclipseProjects/HelloTesting/src/test/resources/testng-parameter.xml</span>
+            <span class="header-content">/Users/richasdy/EclipseProjects/HelloTesting/src/test/resources/testng-ITestContext.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,10 +143,13 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;test-parameter&quot;&gt;
   &lt;test name=&quot;example1&quot;&gt;
-    &lt;parameter name=&quot;poolsize&quot; value=&quot;10&quot;/&gt;
-    &lt;parameter name=&quot;dbconfig&quot; value=&quot;db.properties&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;groupA&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.richasdy.HelloTesting.TestNG.TestParameterXML&quot;/&gt;
+      &lt;class name=&quot;com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- example1 --&gt;
 &lt;/suite&gt; &lt;!-- test-parameter --&gt;
@@ -170,6 +173,14 @@
             <span class="header-content">Groups for test-parameter</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">groupA</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-test-parameter" class="panel">
@@ -188,14 +199,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createConnection')
-data.setCell(0, 2, 'com.richasdy.HelloTesting.TestNG.TestParameterXML')
-data.setCell(0, 3, 305);
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext')
+data.setCell(0, 3, 13);
 window.suiteTableData['test-parameter']= { tableData: data, tableDiv: 'times-div-test-parameter'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 305 ms</span>
+              <span class="suite-total-time">Total running time: 13 ms</span>
               <div id="times-div-test-parameter">
               </div> <!-- times-div-test-parameter -->
             </div> <!-- times-div -->
@@ -210,9 +221,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-test-parameter" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-test-parameter" class="panel">
@@ -221,9 +239,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.richasdy.HelloTesting.TestNG.TestParameterXML</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.richasdy.HelloTesting.TestNG.TestParameterDataProviderITestContext</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createConnection(db.properties, 10)</span>
+                <span class="method-name">test1(1)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
