@@ -1,66 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="100" started-at="2016-10-12T09:43:55Z" finished-at="2016-10-12T09:43:55Z">
+  <suite name="test-parameter" duration-ms="320" started-at="2016-10-12T11:35:16Z" finished-at="2016-10-12T11:35:16Z">
     <groups>
-      <group name="orderBo">
-        <method signature="TestOrder.testMakeOrder()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestOrder@4678c730]" name="testMakeOrder" class="com.richasdy.HelloTesting.TestNG.TestOrder"/>
-        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestOrder@4678c730]" name="testUpdateOrder" class="com.richasdy.HelloTesting.TestNG.TestOrder"/>
-      </group> <!-- orderBo -->
-      <group name="save">
-        <method signature="TestOrder.testMakeOrder()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestOrder@4678c730]" name="testMakeOrder" class="com.richasdy.HelloTesting.TestNG.TestOrder"/>
-      </group> <!-- save -->
-      <group name="db">
-        <method signature="TestDatabase.testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@523884b2]" name="testConnectMsSQL" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
-        <method signature="TestDatabase.testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@523884b2]" name="testConnectOracle" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
-      </group> <!-- db -->
     </groups>
-    <test name="order" duration-ms="5" started-at="2016-10-12T09:43:55Z" finished-at="2016-10-12T09:43:55Z">
-    </test> <!-- order -->
-    <test name="other-order" duration-ms="17" started-at="2016-10-12T09:43:55Z" finished-at="2016-10-12T09:43:55Z">
-      <class name="com.richasdy.HelloTesting.TestNG.TestOrder">
-        <test-method status="PASS" signature="testMakeOrder()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestOrder@4678c730]" name="testMakeOrder" duration-ms="6" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
+    <test name="example1" duration-ms="320" started-at="2016-10-12T11:35:16Z" finished-at="2016-10-12T11:35:16Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestParameterXML">
+        <test-method status="PASS" signature="createConnection(java.lang.String, int)[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestParameterXML@7ac7a4e4]" name="createConnection" duration-ms="305" started-at="2016-10-12T18:35:16Z" finished-at="2016-10-12T18:35:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[db.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMakeOrder -->
-        <test-method status="PASS" signature="testUpdateOrder()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestOrder@4678c730]" name="testUpdateOrder" duration-ms="2" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateOrder -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestOrder -->
-      <class name="com.richasdy.HelloTesting.TestNG.TestConfig">
-        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfig@475530b9]" name="testBeforeTest" is-config="true" duration-ms="0" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBeforeTest -->
-        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfig@475530b9]" name="testAfterTest" is-config="true" duration-ms="1" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAfterTest -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestConfig -->
-    </test> <!-- other-order -->
-    <test name="database" duration-ms="7" started-at="2016-10-12T09:43:55Z" finished-at="2016-10-12T09:43:55Z">
-      <class name="com.richasdy.HelloTesting.TestNG.TestConfig">
-        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfig@475530b9]" name="testBeforeSuite" is-config="true" duration-ms="8" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBeforeSuite -->
-        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestConfig@475530b9]" name="testAfterSuite" is-config="true" duration-ms="0" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAfterSuite -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestConfig -->
-      <class name="com.richasdy.HelloTesting.TestNG.TestDatabase">
-        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@523884b2]" name="testConnectMsSQL" duration-ms="1" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConnectMsSQL -->
-        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@523884b2]" name="testConnectOracle" duration-ms="2" started-at="2016-10-12T16:43:55Z" finished-at="2016-10-12T16:43:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConnectOracle -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestDatabase -->
-    </test> <!-- database -->
-  </suite> <!-- TestAll -->
+        </test-method> <!-- createConnection -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestParameterXML -->
+    </test> <!-- example1 -->
+  </suite> <!-- test-parameter -->
 </testng-results>

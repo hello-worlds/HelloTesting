@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.richasdy.HelloTesting.TestNG.TestTimeout">
+      <class name="com.richasdy.HelloTesting.TestNG.depedency.TestDepedencyFailed">
         <methods>
-          <include name="testThisShouldFail"/>
+          <include name="method1"/>
+          <include name="method2"/>
         </methods>
-      </class> <!-- com.richasdy.HelloTesting.TestNG.TestTimeout -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.depedency.TestDepedencyFailed -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
