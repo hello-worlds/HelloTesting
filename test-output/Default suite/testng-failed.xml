@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.richasdy.HelloTesting.TestNG.depedency.TestDepedencyFailed">
+      <class name="com.richasdy.HelloTesting.TestNG.CharUtilsTest">
         <methods>
-          <include name="method1"/>
-          <include name="method2"/>
+          <include name="ASCIIToCharTest"/>
+          <include name="CharToASCIITest"/>
         </methods>
-      </class> <!-- com.richasdy.HelloTesting.TestNG.depedency.TestDepedencyFailed -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.CharUtilsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
