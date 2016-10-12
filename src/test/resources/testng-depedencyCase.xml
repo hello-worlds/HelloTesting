@@ -2,14 +2,14 @@
 
 <suite name="TestDependency">
 
-  <test name="TestCase1">
+	<test name="TestCase1">
 
-	<classes>
-	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp" />
-	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase" />
-	  <class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer" />
-	</classes>
+		<classes>
+			<class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp" />
+			<class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase" />
+			<class name="com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer" />
+		</classes>
 
-  </test>
+	</test>
 
 </suite>

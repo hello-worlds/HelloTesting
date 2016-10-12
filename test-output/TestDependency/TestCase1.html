@@ -1,12 +1,17 @@
 <html>
 <head>
-<title>TestNG:  TestCase1</title>
+<title>TestNG: TestCase1</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
+.log {
+	display: none;
+}
+
+.stack-trace {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -53,57 +58,92 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>TestCase1</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Wed Oct 12 19:30:33 WIB 2016</td>
-</tr>
-<tr><td>Total time:</td><td>0 seconds (47 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase.deployBackUpServer()'><b>deployBackUpServer</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase@51efea79</td></tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase.deployServer()'><b>deployServer</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase@51efea79</td></tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer.initDB()'><b>initDB</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer@6d78f375</td></tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp.method1()'><b>method1</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp@6d00a15d</td></tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp.method2()'><b>method2</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp@6d00a15d</td></tr>
-<tr>
-<td title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer.testConnection()'><b>testConnection</b><br>Test class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer</td>
-<td></td>
-<td>0</td>
-<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer@6d78f375</td></tr>
-</table><p>
+	<h2 align='center'>TestCase1</h2>
+	<table border='1' align="center">
+		<tr>
+			<td>Tests passed/Failed/Skipped:</td>
+			<td>6/0/0</td>
+		</tr>
+		<tr>
+			<td>Started on:</td>
+			<td>Wed Oct 12 19:30:33 WIB 2016</td>
+		</tr>
+		<tr>
+			<td>Total time:</td>
+			<td>0 seconds (47 ms)</td>
+		</tr>
+		<tr>
+			<td>Included groups:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Excluded groups:</td>
+			<td></td>
+		</tr>
+	</table>
+	<p />
+	<small><i>(Hover the method name to see the test class
+			name)</i></small>
+	<p />
+	<table width='100%' border='1' class='invocation-passed'>
+		<tr>
+			<td colspan='4' align='center'><b>PASSED TESTS</b></td>
+		</tr>
+		<tr>
+			<td><b>Test method</b></td>
+			<td width="30%"><b>Exception</b></td>
+			<td width="10%"><b>Time (seconds)</b></td>
+			<td><b>Instance</b></td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase.deployBackUpServer()'><b>deployBackUpServer</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase@51efea79</td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase.deployServer()'><b>deployServer</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestDatabase@51efea79</td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer.initDB()'><b>initDB</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer@6d78f375</td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp.method1()'><b>method1</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp@6d00a15d</td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp.method2()'><b>method2</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestApp@6d00a15d</td>
+		</tr>
+		<tr>
+			<td
+				title='com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer.testConnection()'><b>testConnection</b><br>Test
+				class: com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer</td>
+			<td></td>
+			<td>0</td>
+			<td>com.richasdy.HelloTesting.TestNG.depedencyCase.TestServer@6d78f375</td>
+		</tr>
+	</table>
+	<p>
 </body>
 </html>
