@@ -31,7 +31,7 @@ public class TestGroup {
 		System.out.println("testConnectOracle()");
 	}
 
-	@Test(groups = "database")
+	@Test(groups = {"mysql","database"})
 	public void testConnectMsSQL() {
 		System.out.println("testConnectMsSQL");
 	}

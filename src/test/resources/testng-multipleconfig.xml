@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+	<test name="order">
+		<packages>
+			<package name="com.mkyong.testng.examples.suite.*" />
+		</packages>
+	</test>
+
+	<test name="other-order">
+		<classes>
+			<class name="com.richasdy.HelloTesting.TestNG.TestConfig" />
+			<class name="com.richasdy.HelloTesting.TestNG.TestOrder">
+				<methods>
+					<include name="testMakeOrder" />
+					<include name="testUpdateOrder" />
+					<!-- <exclude name="testMakeOrder" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="database">
+		<groups>
+			<run>
+				<exclude name="brokenTests" />
+				<include name="db" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.richasdy.HelloTesting.TestNG.TestDatabase" />
+		</classes>
+	</test>
+
+
+
+</suite>
