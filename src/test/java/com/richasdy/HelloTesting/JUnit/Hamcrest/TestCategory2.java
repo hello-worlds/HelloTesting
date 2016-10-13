@@ -3,7 +3,7 @@ package com.richasdy.HelloTesting.JUnit.Hamcrest;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
-import com.richasdy.HelloTesting.JUnit.category.PerformanceTests;
+import com.richasdy.HelloTesting.JUnit.Category.PerformanceTests;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
