@@ -1,10 +1,12 @@
-package com.richasdy.HelloTesting.JUnit;
+package com.richasdy.HelloTesting.JUnit.Hamcrest;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+
+import com.richasdy.HelloTesting.JUnit.MathUtils;
 
 import java.util.Arrays;
 import java.util.Collection;

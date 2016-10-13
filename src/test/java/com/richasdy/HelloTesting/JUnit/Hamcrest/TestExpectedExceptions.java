@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting.JUnit;
+package com.richasdy.HelloTesting.JUnit.Hamcrest;
 
 import org.junit.Test;
 import java.util.ArrayList;

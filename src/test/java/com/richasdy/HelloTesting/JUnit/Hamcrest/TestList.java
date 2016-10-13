@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting.JUnit;
+package com.richasdy.HelloTesting.JUnit.Hamcrest;
 
 import org.junit.Test;
 
@@ -100,28 +100,17 @@ public class TestList {
 	@Test
 	public void testAssertListObj() {
 
-		List<Fruit> list = Arrays.asList(
-				new Fruit("Banana", 99), 
-				new Fruit("Apple", 20));
+		List<Fruit> list = Arrays.asList(new Fruit("Banana", 99), new Fruit("Apple", 20));
 
 		// Test equals
-		assertThat(list, hasItem(
-				new Fruit("Banana", 99)
-				));
-		
-		assertThat(list, hasItem(
-				new Fruit("Apple", 20)
-				));
-		
-		assertThat(list, hasItems(
-				new Fruit("Banana", 99), 
-				new Fruit("Apple", 20)));
+		assertThat(list, hasItem(new Fruit("Banana", 99)));
 
-		assertThat(list, containsInAnyOrder(
-				new Fruit("Apple", 20), 
-				new Fruit("Banana", 99)));
-		
-		
+		assertThat(list, hasItem(new Fruit("Apple", 20)));
+
+		assertThat(list, hasItems(new Fruit("Banana", 99), new Fruit("Apple", 20)));
+
+		assertThat(list, containsInAnyOrder(new Fruit("Apple", 20), new Fruit("Banana", 99)));
+
 		// TEST hasProperty, still error
 		// Customer customer = new Customer("Donni");
 		// Customer customer2 = new Customer("Donni");
@@ -129,10 +118,7 @@ public class TestList {
 
 		// i dont know why, but its failed. maybe wrong logic
 		// Test class property, and its value
-		 assertThat(list, containsInAnyOrder(
-				 hasProperty("name", is("Apple")),
-				 hasProperty("name", is("Banana"))));
-		
+		assertThat(list, containsInAnyOrder(hasProperty("name", is("Apple")), hasProperty("name", is("Banana"))));
 
 	}
 }

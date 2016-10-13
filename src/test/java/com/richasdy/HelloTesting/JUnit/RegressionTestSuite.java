@@ -4,6 +4,9 @@ import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
+import com.richasdy.HelloTesting.JUnit.Hamcrest.TestCategory;
+import com.richasdy.HelloTesting.JUnit.Hamcrest.TestCategory2;
+import com.richasdy.HelloTesting.JUnit.Hamcrest.TestCategory3;
 import com.richasdy.HelloTesting.JUnit.category.RegressionTests;
 
 @RunWith(Categories.class)
