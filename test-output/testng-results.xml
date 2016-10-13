@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6489" started-at="2016-10-13T03:32:39Z" finished-at="2016-10-13T03:32:46Z">
+  <suite name="Default suite" duration-ms="35" started-at="2016-10-13T04:10:35Z" finished-at="2016-10-13T04:10:35Z">
     <groups>
+      <group name="brokenTests">
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMySQL" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
+      </group> <!-- brokenTests -->
+      <group name="db-nosql">
+        <method signature="TestDatabase.testConnectMongoDB()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMongoDB" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
+      </group> <!-- db-nosql -->
+      <group name="db">
+        <method signature="TestDatabase.testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMsSQL" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMySQL" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
+        <method signature="TestDatabase.testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectOracle" class="com.richasdy.HelloTesting.TestNG.TestDatabase"/>
+      </group> <!-- db -->
     </groups>
-    <test name="Default test" duration-ms="6489" started-at="2016-10-13T03:32:39Z" finished-at="2016-10-13T03:32:46Z">
-      <class name="com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation">
-        <test-method status="PASS" signature="testSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation@39aeed2f]" name="testSelenium" duration-ms="6474" started-at="2016-10-13T10:32:39Z" finished-at="2016-10-13T10:32:46Z">
+    <test name="Default test" duration-ms="35" started-at="2016-10-13T04:10:35Z" finished-at="2016-10-13T04:10:35Z">
+      <class name="com.richasdy.HelloTesting.TestNG.TestDatabase">
+        <test-method status="PASS" signature="testConnectMongoDB()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMongoDB" duration-ms="11" started-at="2016-10-13T11:10:35Z" finished-at="2016-10-13T11:10:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSelenium -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation -->
+        </test-method> <!-- testConnectMongoDB -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMsSQL" duration-ms="2" started-at="2016-10-13T11:10:35Z" finished-at="2016-10-13T11:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="testConnectMySQL()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectMySQL" duration-ms="2" started-at="2016-10-13T11:10:35Z" finished-at="2016-10-13T11:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMySQL -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.richasdy.HelloTesting.TestNG.TestDatabase@1b604f19]" name="testConnectOracle" duration-ms="3" started-at="2016-10-13T11:10:35Z" finished-at="2016-10-13T11:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.TestDatabase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
