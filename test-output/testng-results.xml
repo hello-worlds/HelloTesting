@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23022" started-at="2016-10-13T03:16:21Z" finished-at="2016-10-13T03:16:44Z">
+  <suite name="Default suite" duration-ms="6489" started-at="2016-10-13T03:32:39Z" finished-at="2016-10-13T03:32:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23022" started-at="2016-10-13T03:16:21Z" finished-at="2016-10-13T03:16:44Z">
-      <class name="com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads">
-        <test-method status="PASS" signature="loadTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTest" duration-ms="8777" started-at="2016-10-13T10:16:21Z" finished-at="2016-10-13T10:16:30Z">
+    <test name="Default test" duration-ms="6489" started-at="2016-10-13T03:32:39Z" finished-at="2016-10-13T03:32:46Z">
+      <class name="com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation">
+        <test-method status="PASS" signature="testSelenium()[pri:0, instance:com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation@39aeed2f]" name="testSelenium" duration-ms="6474" started-at="2016-10-13T10:32:39Z" finished-at="2016-10-13T10:32:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loadTest -->
-        <test-method status="PASS" signature="loadTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTest" duration-ms="8777" started-at="2016-10-13T10:16:21Z" finished-at="2016-10-13T10:16:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTest -->
-        <test-method status="PASS" signature="loadTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTest" duration-ms="8103" started-at="2016-10-13T10:16:30Z" finished-at="2016-10-13T10:16:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTest -->
-        <test-method status="PASS" signature="loadTest()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTest" duration-ms="8102" started-at="2016-10-13T10:16:30Z" finished-at="2016-10-13T10:16:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTest -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTestThisWebsite" duration-ms="3135" started-at="2016-10-13T10:16:38Z" finished-at="2016-10-13T10:16:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads@39aeed2f]" name="loadTestThisWebsite" duration-ms="2967" started-at="2016-10-13T10:16:41Z" finished-at="2016-10-13T10:16:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadTestThisWebsite -->
-      </class> <!-- com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads -->
+        </test-method> <!-- testSelenium -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.Selenium.TestDriverLocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

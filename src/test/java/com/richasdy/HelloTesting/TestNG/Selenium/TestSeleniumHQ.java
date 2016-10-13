@@ -7,14 +7,11 @@ public class TestSeleniumHQ {
 	@Test
 	public void testDownloadLinkExists() {
 
-		
-
 	}
 
 	@Test
 	public void testTabsExist() {
 	
-
 	}
 
 }
