@@ -3,7 +3,7 @@ package com.richasdy.HelloTesting.JUnit.Mockito;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.richasdy.HelloTesting.JUnit.Model.Book;
+import com.richasdy.HelloTesting.JUnit.Book;
 
 public class MockBookServiceImpl implements BookService{
 	

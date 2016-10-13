@@ -1,9 +1,6 @@
 package com.richasdy.HelloTesting.JUnit;
 
 import org.junit.Test;
-
-import com.richasdy.HelloTesting.JUnit.Model.MessageUtil;
-
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;
 

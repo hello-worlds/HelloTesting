@@ -2,7 +2,7 @@ package com.richasdy.HelloTesting.JUnit.Mockito;
 
 import org.junit.Test;
 
-import com.richasdy.HelloTesting.JUnit.Model.Book;
+import com.richasdy.HelloTesting.JUnit.Book;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

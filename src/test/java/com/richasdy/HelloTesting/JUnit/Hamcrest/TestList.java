@@ -2,7 +2,7 @@ package com.richasdy.HelloTesting.JUnit.Hamcrest;
 
 import org.junit.Test;
 
-import com.richasdy.HelloTesting.JUnit.Model.Fruit;
+import com.richasdy.HelloTesting.JUnit.Fruit;
 
 import java.util.ArrayList;
 import java.util.Arrays;
