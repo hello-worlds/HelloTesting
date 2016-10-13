@@ -7,11 +7,9 @@ import org.testng.annotations.Test;
 
 public class TestMultipleThreads {
 
-	@Test(invocationCount = 1)
+	@Test(invocationCount = 2)
 	public void loadTestThisWebsite() {
 
-		// WebDriver driver = new FirefoxDriver();
-		// WebDriver driver = new RemoteWebDriver("http://localhost:9515", DesiredCapabilities.chrome());
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		System.out.println("Page Title is " + driver.getTitle());
@@ -20,18 +18,17 @@ public class TestMultipleThreads {
 
 	}
 
-	// @Test(invocationCount = 100, threadPoolSize = 5)
+	@Test(invocationCount = 4, threadPoolSize = 2)
 	public void loadTest() {
 
-		System.out.printf("%n[START] Thread Id : %s is started!", Thread.currentThread().getId());
+		System.out.println("%n[START] Thread Id : %s is started!" + Thread.currentThread().getId());
 
-		// WebDriver driver = new FirefoxDriver();
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://yourwebsite.com");
+		driver.get("http://www.seleniumhq.org/");
 
 		// perform whatever actions, like login, submit form or navigation
 
-		System.out.printf("%n[END] Thread Id : %s", Thread.currentThread().getId());
+		System.out.println("%n[END] Thread Id : %s" + Thread.currentThread().getId());
 
 		driver.quit();
 

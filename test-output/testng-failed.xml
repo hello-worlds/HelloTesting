@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.richasdy.HelloTesting.LoadTest.TestMultipleThreads">
+      <class name="com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads">
         <methods>
           <include name="loadTestThisWebsite"/>
         </methods>
-      </class> <!-- com.richasdy.HelloTesting.LoadTest.TestMultipleThreads -->
+      </class> <!-- com.richasdy.HelloTesting.TestNG.LoadTest.TestMultipleThreads -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
