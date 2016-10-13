@@ -3,7 +3,7 @@ package com.richasdy.HelloTesting.JUnit;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-import com.richasdy.HelloTesting.JUnit.model.MessageUtil;
+import com.richasdy.HelloTesting.JUnit.Model.MessageUtil;
 
 public class TestJunit1Fail {
 

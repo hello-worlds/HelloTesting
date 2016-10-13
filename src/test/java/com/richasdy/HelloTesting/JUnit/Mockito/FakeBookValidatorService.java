@@ -1,6 +1,6 @@
 package com.richasdy.HelloTesting.JUnit.Mockito;
 
-import com.richasdy.HelloTesting.JUnit.model.Book;
+import com.richasdy.HelloTesting.JUnit.Model.Book;
 
 public class FakeBookValidatorService implements BookValidatorService {
 

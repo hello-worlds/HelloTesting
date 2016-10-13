@@ -2,7 +2,7 @@ package com.richasdy.HelloTesting.JUnit;
 
 import org.junit.Test;
 
-import com.richasdy.HelloTesting.JUnit.model.Book;
+import com.richasdy.HelloTesting.JUnit.Model.Book;
 
 import java.util.Arrays;
 import java.util.List;

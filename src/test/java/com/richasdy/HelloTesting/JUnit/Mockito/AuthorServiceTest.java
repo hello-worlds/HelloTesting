@@ -2,7 +2,7 @@ package com.richasdy.HelloTesting.JUnit.Mockito;
 
 import org.junit.Test;
 
-import com.richasdy.HelloTesting.JUnit.model.Book;
+import com.richasdy.HelloTesting.JUnit.Model.Book;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -17,7 +17,9 @@ public class AuthorServiceTest {
 
 	@Test
 	public void test_total_book_by_mock_real() {
-
+		
+		// this is error because the BookDAOImpl
+		
 		// 1. Setup
 		AuthorServiceImpl obj = new AuthorServiceImpl();
 		BookServiceImpl bookService = new BookServiceImpl();

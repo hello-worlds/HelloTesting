@@ -3,8 +3,7 @@ package com.richasdy.HelloTesting.JUnit.Mockito;
 import java.util.ArrayList;
 import java.util.List;
 
-//I am a mock object!
-import com.richasdy.HelloTesting.JUnit.model.Book;
+import com.richasdy.HelloTesting.JUnit.Model.Book;
 
 public class MockBookServiceImpl implements BookService{
 	

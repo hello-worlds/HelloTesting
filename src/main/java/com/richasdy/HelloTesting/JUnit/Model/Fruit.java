@@ -1,4 +1,4 @@
-package com.richasdy.HelloTesting.JUnit.model;
+package com.richasdy.HelloTesting.JUnit.Model;
 
 import java.util.Objects;
 

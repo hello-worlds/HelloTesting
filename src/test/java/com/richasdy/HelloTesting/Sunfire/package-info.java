@@ -5,4 +5,4 @@
  * @author richasdy
  *
  */
-package com.richasdy.HelloTesting.sunfire;
+package com.richasdy.HelloTesting.Sunfire;
